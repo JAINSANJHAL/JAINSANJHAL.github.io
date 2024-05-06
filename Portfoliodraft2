@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjhal Jain - UI/UX Designer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #00ced1;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    h1 {
+      margin: 0;
+    }
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 5px;
+      transition: transform 0.3s ease;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+    figcaption {
+      text-align: center;
+      margin-top: 10px;
+      color: #444;
+    }
+    strong {
+      font-weight: bold;
+    }
+    h2 {
+      margin-top: 30px; /* Add padding between "Design Explorations" and text */
+      margin-bottom: 10px;
+      text-align: center; /* Center-align the heading */
+    }
+    figure + h2 {
+      margin-top: 40px; /* Add margin between images and "Design Explorations" */
+    }
+    figure + figure img {
+      margin-top: 20px; /* Add margin between images */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sanjhal Jain</h1>
+    <h2>UI/UX Designer</h2>
+    <h3>Based in SF 🌉</h3>
+  </header>
+  <main>
+    <figure>
+      <img src="emerald.png" alt="The Emerald">
+      <figcaption><strong>The Emerald</strong> - Designed a web risk analysis survey for Arihant Capital Company.</figcaption>
+    </figure>
+    <figure>
+      <img src="care4today.png" alt="Care4Today">
+      <figcaption><strong>Care4Today</strong> - An extensive study about the stigma around HIV and HIV self tests. This study focused on students aged 16-23.</figcaption>
+    </figure>
+    <figure>
+      <img src="insidejoy.png" alt="The Inside Joy">
+      <figcaption><strong>The Inside Joy</strong> - Designing a designated drawing booth system to keep students motivated to draw daily.</figcaption>
+    </figure>
+    <h2>Design Explorations</h2>
+    <figure>
+      <img src="children'sapp.png" alt="Rebranding project">
+      <figcaption>Rebranding project</figcaption>
+    </figure>
+    <figure>
+      <img src="metaverse.png" alt="Metaverse">
+      <figcaption>Metaverse</figcaption>
+    </figure>
+  </main>
+</body>
+</html>
